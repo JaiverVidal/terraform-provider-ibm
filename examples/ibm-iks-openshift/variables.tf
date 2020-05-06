@@ -1,6 +1,6 @@
 
 variable "datacenter" {
-  default = "fra01"
+  default = "eu-de-3"
 }
 
 variable "machine_type" {
