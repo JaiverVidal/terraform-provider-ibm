@@ -11,8 +11,8 @@ resource "random_id" "name2" {
 }
 
 locals {
-  ZONE1 = "Frankfurt1"
-  ZONE2 = "Frankfurt2"
+  ZONE1 = "fra01"
+  ZONE2 = "fra02"
 }
 
 resource "ibm_is_vpc" "vpc1" {
