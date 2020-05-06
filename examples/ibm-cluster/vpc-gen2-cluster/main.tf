@@ -26,12 +26,12 @@ resource "ibm_is_subnet" "subnet1" {
   total_ipv4_address_count = 256
 }
 
-resource "ibm_is_subnet" "subnet2" {
-  name                     = "subnet-${random_id.name2.hex}"
-  vpc                      = ibm_is_vpc.vpc1.id
-  zone                     = local.ZONE2
-  total_ipv4_address_count = 256
-}
+#resource "ibm_is_subnet" "subnet2" {
+#  name                     = "subnet-${random_id.name2.hex}"
+#  vpc                      = ibm_is_vpc.vpc1.id
+#  zone                     = local.ZONE2
+#  total_ipv4_address_count = 256
+#}
 
 data "ibm_resource_group" "resource_group" {
   name = var.resource_group
