@@ -1,6 +1,6 @@
 
 variable "datacenter" {
-  default = "wdc04"
+  default = "fra01"
 }
 
 variable "machine_type" {
