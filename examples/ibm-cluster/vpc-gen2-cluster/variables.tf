@@ -3,7 +3,7 @@ variable "flavor" {
 }
 
 variable "kube_version" {
-  default = "1.17.4"
+  default = "1.17.5"
 }
 
 variable "worker_count" {
