@@ -11,8 +11,8 @@ resource "random_id" "name2" {
 }
 
 locals {
-  ZONE1 = "${var.region}1"
-  ZONE2 = "${var.region}2"
+  ZONE1 = "${var.region}-1"
+  ZONE2 = "${var.region}-2"
 }
 
 resource "ibm_is_vpc" "vpc1" {
