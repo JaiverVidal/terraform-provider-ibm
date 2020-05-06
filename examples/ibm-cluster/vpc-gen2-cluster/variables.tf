@@ -11,7 +11,7 @@ variable "worker_count" {
 }
 
 variable "region" {
-  default = "eu-de"
+  default = "us-south"
 }
 
 variable "resource_group" {
